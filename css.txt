@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=popins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    position: relative;
+    max-width: 180px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style-type: none;
+}
+header ul li a
+{
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content .textbox
+{
+    position: relative;
+    max-width: 600px;
+
+}
+.content .textbox h2
+{
+    color: rgb(41, 41, 41);
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+
+}
+.content .textbox h2 span
+{
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textbox p
+{
+    color: #333;
+
+}
+.content .textbox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #000000;
+    color: #fff;
+    border-radius:40px;
+    /* font-weight: 500; */
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgbox
+{
+    width: 60px;
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content  .imgbox img
+{
+    max-width: 5px;
+
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <title>E_Voting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#" ><img src="10.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Voter Login</a></li>
+                <li><a href="#">Candiate Login</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+            <h2> <br>"IT's <span>RBM Voting System</span>"</h2>
+            <p> In this System You Can not just vote you can hold a Election also</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+            <img src="11.png"  style="height: 500px; width: 500px;">
+        </div>
+        </div>
+        <ul class="thumb">
+            <!-- <li><img src="">
+            </li> -->
+        </ul>
+    </section>
+</body>
+</html>
